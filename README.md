@@ -1,7 +1,7 @@
 py-osxsandbox
 =============
 
-A ctypes wrapper of the Mac OSX sandbox API.
+A ctypes wrapper of the Mac OS X sandbox API.
 
 The Mac OS X sandbox library is `sandbox.h`, and exposes functionality
 similar to Linux's seccomp-bpf. Policy can be specified in a Scheme-based
