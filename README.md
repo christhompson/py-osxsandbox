@@ -1,7 +1,7 @@
 py-osxsandbox
 =============
 
-A ctypes wrapper on the Mac OSX sandbox function.
+A ctypes wrapper of the Mac OSX sandbox API.
 
 The Mac OS X sandbox library is `sandbox.h`, and exposes functionality
 similar to Linux's seccomp-bpf. Policy can be specified in a Scheme-based
@@ -9,8 +9,10 @@ DSL, although several profiles are built-in to the library. Currently,
 this wrapper hard-codes which of the built-in profiles it uses.
 
 For more information on the OS X sandbox library:
-- The manpages for sandbox.h and it's functions https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man7/sandbox.7.html
-- The Chromium for OS X sandboxing design documents http://www.chromium.org/developers/design-documents/sandbox/osx-sandboxing-design
+- Manpages for sandbox.h and its functions 
+    - https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man7/sandbox.7.html
+- Chromium OS X sandboxing design documents 
+    - http://www.chromium.org/developers/design-documents/sandbox/osx-sandboxing-design
 
 Warning!
 ---
@@ -33,7 +35,7 @@ To-do
 License
 ---
 
-Copyright 2014 Christopher Thompson <cthompson@cs.berkeley.edu>
+Copyright 2014 Christopher Thompson (cthompson@cs.berkeley.edu)
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
