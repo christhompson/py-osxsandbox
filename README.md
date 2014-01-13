@@ -14,6 +14,16 @@ For more information on the OS X sandbox library:
 - Chromium OS X sandboxing design documents 
     - http://www.chromium.org/developers/design-documents/sandbox/osx-sandboxing-design
 
+Requirements
+---
+
+There are no extra dependencies to use this wrapper, just an OS X system that
+has the sandboxing library (introduced in OS X 10.5 Leopard). Attempting to 
+import the module on a system without the library should raise an ImportError.
+
+This wrapper has been tested and works with both Python 2 and 3 
+(2.7 and 3.3, although the prototype it is a part of is built for Python 2.7).
+
 Warning!
 ---
 
